@@ -24,3 +24,7 @@
            with:
              name: ListaCompras-apk
              path: app/build/outputs/apk/debug/app-debug.apk
+ name: Setup Android SDK
+  uses: android-actions/setup-android@v4
+  with:
+    packages: 'platform-tools'
